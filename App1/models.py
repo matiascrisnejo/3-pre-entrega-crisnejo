@@ -16,3 +16,5 @@ class Profesor(models.Model):
     apellido = models.CharField(max_length=40)
     email = models.EmailField()
     profesion = models.CharField(max_length=60)
+    
+    
